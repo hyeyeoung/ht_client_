@@ -7,7 +7,7 @@ function App() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    axios.get('https://port-0-ht-test-eu1k2llkqouw2h.sel4.cloudtype.app//api/data') // Express 서버의 포트 번호를 여기에 기입
+    axios.get('https://port-0-ht-test-eu1k2llkqouw2h.sel4.cloudtype.app/api/data') // Express 서버의 포트 번호를 여기에 기입
       .then(response => {
         setData(response.data);
       })
