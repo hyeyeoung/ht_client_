@@ -32,7 +32,7 @@ import React,{useState,useEffect} from 'react';
 function App() {
 
   const sendRequest = async() => {
-    const response = await axios.get('http://localhost:3000');
+    const response = await axios.get('https://port-0-ht-test-eu1k2llkqouw2h.sel4.cloudtype.app/');
     console.log(response);
     console.log(response.data);
   };
